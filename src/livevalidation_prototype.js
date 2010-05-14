@@ -105,7 +105,7 @@ LiveValidation.prototype = {
 	  beforeInvalid: function(){},
 	  onInvalid: function(){ this.insertMessage(this.createMessageSpan()); this.addFieldClass(); },
 	  afterInvalid: function(){},
-	  afterValidation: function(){},
+	  afterValidation: function(){}
     }, optionsObj || {});
 	var node = this.options.insertAfterWhatNode || this.element;
     this.options.insertAfterWhatNode = $(node);
